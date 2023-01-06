@@ -1,11 +1,9 @@
-console.log("this is in codesandbox.io home code!");
-
 document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("start-tour").addEventListener("click", function () {
     document.getElementById("tour-overlay").style.display = "none";
     document.getElementById("tour-blur").style.filter = "none";
   });
-  setTimeout(function () {
+  /*setTimeout(function () {
     var iframe = document.createElement("iframe");
     iframe.src = "https://capture.navattic.com/clckmxifp00h108ieddl743nb";
     iframe.title = "Navattic tour";
@@ -14,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     iframe.style.height = "100%";
     iframe.allow = "fullscreen";
     document.getElementById("tour-embed").appendChild(iframe);
-  }, 2000);
+  }, 2000);*/
 
   /********/
   //number count up animation for the stat section
